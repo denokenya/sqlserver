@@ -23,3 +23,6 @@ SELECT DatePart(WW,GetDate()) AS CURRENT_WEEK;
 --DATENAME()
 SELECT DATENAME(MM,GetDate()) AS CURRENT_MONTH;
 SELECT DATENAME(DW,GetDate()) AS WEEK_DAY;
+
+--Get the last month
+SELECT DatePart(MM,GetDate()) - 1 AS LAST_MONTH;
