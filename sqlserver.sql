@@ -14,4 +14,6 @@ SELECT DateDiff(mm,'2009/10/23','2011/11/27')  ;
 SELECT DateDiff(YY,'1991/10/30',GetDate()) AS DIFFINYRS ;
 
 --DATE PART
-SELECT DatePart(YY,GetDate()) ;
+SELECT DatePart(YY,GetDate()) AS CURRENT_YEAR;
+SELECT DatePart(MM,GetDate()) AS CURRENT_MONTH;
+SELECT DatePart(DD,GetDate()) AS CURRENT_DAY;
