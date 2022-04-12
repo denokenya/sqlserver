@@ -1,2 +1,6 @@
 --SQL Server Queries - Date and Time
-SELECT GetDate() ;
+SELECT GetDate()  as TodayDate;
+
+--Find out yesterday date
+
+SELECT GetDate() - 1 as YesterDayDate ;
